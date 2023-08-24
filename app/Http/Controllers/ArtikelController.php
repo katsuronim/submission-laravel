@@ -123,7 +123,7 @@ class ArtikelController extends Controller
 
         $item->update([
             'judul_artikel' => $request->judul_artikel,
-            'kategori_artikel' => $request->id_kategori,
+            'id_kategori' => $request->id_kategori,
             'teks_artikel' => $request->teks_artikel,
             'tags_artikel' => $request->tags_artikel,
             'gambar_artikel' => "$profileImage",

@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="form-group">
-                            <strong><label>Tags : <span class="text-danger">*</span></label></strong>
+                            <strong><label>Tags : (gunakan tanda koma Ex = "Tags 1, Tags 2")<span class="text-danger">*</span></label></strong>
                             <br>
                             <input type="text" data-role="tagsinput" name="tags_artikel" value="{{ $artikel->tags_artikel}}" class="form-control tags">
                             <br>

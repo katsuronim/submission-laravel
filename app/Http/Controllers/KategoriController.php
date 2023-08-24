@@ -11,7 +11,7 @@ class KategoriController extends Controller
 {
     public function index()
     {
-        $kategori = Kategori::latest()->paginate(5);
+        $kategori = Kategori::paginate(5);
 
         return view('kategori.index', compact('kategori'));
     }
